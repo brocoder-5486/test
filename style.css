@@ -1,0 +1,62 @@
+/* initial styles */
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:100%;
+    max-width: 850px;
+    margin:0 auto;
+    padding:1em;
+}
+
+ul{
+    margin:0;
+    padding-left:1.5em;
+}
+
+
+/* header styles */
+
+header{
+    text-align: center;
+}
+
+.abt_me{
+    margin:0 auto;
+    /* border:2px solid red; */
+}
+
+.abt_me > p:nth-of-type(2){
+    color:green;
+}
+/* main styles */
+
+/* education styles */
+
+/* .education > .padding_left{
+    padding-left: 1.5em;
+} */
+
+.education > .year{
+    display: block;
+}
+
+.year{
+    font-weight: 600;
+}
+
+.qualification{
+    color:green;
+    font-weight: 700;
+}
+
+/* .padding_left{
+    padding-left: 1.5em;
+} */
